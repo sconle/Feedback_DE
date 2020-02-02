@@ -1,35 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e51c4fa4-198a-45a2-9b2f-211fe3990c9f" name="Default Changelist" comment="Installation webpack Encore, adminBSB, création de base.html.twig et d'un controller">
-      <change afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/vendor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/assets.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/webpack_encore.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/webpack_encore.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Feedback.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Feedback.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="e51c4fa4-198a-45a2-9b2f-211fe3990c9f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/encore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/encore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/encore.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/encore.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@symfony/webpack-encore/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@symfony/webpack-encore/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/adminbsb-materialdesign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/adminbsb-materialdesign/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/animate.css/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/animate.css/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-notify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap-notify/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap-select/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bootstrap-select/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jquery/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-waves/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-waves/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/popper.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/popper.js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -208,6 +181,7 @@
       <workItem from="1580601745935" duration="338000" />
       <workItem from="1580659731052" duration="4074000" />
       <workItem from="1580674314056" duration="1717000" />
+      <workItem from="1580680535490" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary=" 2">
       <created>1578757190880</created>
@@ -230,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580662737881</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Installation webpack Encore, adminBSB, création de base.html.twig et d'un controller">
+      <created>1580680682046</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580680682046</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
