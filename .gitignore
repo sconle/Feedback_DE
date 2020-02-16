@@ -26,3 +26,6 @@ npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
 /node_modules/
+.idea
+node_modules
+/node_modules

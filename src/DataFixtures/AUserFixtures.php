@@ -42,7 +42,7 @@ class AUserFixtures extends Fixture
             );
 
             $roles = array(
-                'admin', 'moderateur', 'prof', 'eleve'
+                'ROLE_USER', 'ROLE_ADMIN'
             );
 
             $user->setLastName($lastnames[mt_rand(0, sizeof($lastnames) - 1)])
@@ -50,12 +50,8 @@ class AUserFixtures extends Fixture
                 ->setEmail($user -> getLastName().'.'.$user -> getFirstName().$i.'@centrale-marseille.fr')
                 ->setPassword(uniqid())
                 ->setPromo($promo[array_rand($promo, 1)])
-                ->setUsername($user->getLastName().$i);
-            $roluser = array($roles[rand(2,3)]);
-            if(rand(1,100)>=85){
-                array_push($roluser,$roles[rand(0,1)]);
-            }
-            $user->setRoles($roluser);
+                ->setUsername($user->getLastName().$i)
+                ->setRoles(array($roles[rand(0,1)]));
 
             $manager->persist($user);
         }

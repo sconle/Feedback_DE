@@ -5,7 +5,7 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
     </head>
-    <body>
+    <body {% block additionnal_body_block %}{% endblock %} class="theme-amber {% block additionnal_body_class %}{% endblock %}">
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
